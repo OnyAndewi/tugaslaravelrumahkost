@@ -69,35 +69,28 @@
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white z-20" id="nav-content">
             <ul class="list-reset lg:flex flex-1 items-center px-4 md:px-0">
                 <li class="mr-6 my-2 md:my-0">
-                    <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-pink-600 no-underline hover:text-gray-900 border-b-2 border-orange-600 hover:border-orange-600">
+                    <a href="/admin" class="block py-1 md:py-3 pl-1 align-middle text-pink-600 no-underline hover:text-gray-900 border-b-2 border-orange-600 hover:border-orange-600">
                         <i class="fas fa-home fa-fw mr-3 text-pink-600"></i><span class="pb-1 md:pb-0 text-sm">Home</span>
                     </a>
                 </li>
                 <li class="mr-6 my-2 md:my-0">
-                    <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-900 border-b-2 border-white hover:border-pink-500">
+                    <a href="/data_admin" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-900 border-b-2 border-white hover:border-pink-500">
                         <i class="fas fa-tasks fa-fw mr-3"></i><span class="pb-1 md:pb-0 text-sm">Admin</span>
                     </a>
                 </li>
+                
                 <li class="mr-6 my-2 md:my-0">
-                    <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-900 border-b-2 border-white hover:border-purple-500">
-                        <i class="fa fa-envelope fa-fw mr-3"></i><span class="pb-1 md:pb-0 text-sm">Ruang</span>
+                    <a href="data_user" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-900 border-b-2 border-white hover:border-pink-500">
+                        <i class="fas fa-tasks fa-fw mr-3"></i><span class="pb-1 md:pb-0 text-sm">User</span>
                     </a>
                 </li>
+                
                 <li class="mr-6 my-2 md:my-0">
-                    <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-900 border-b-2 border-white hover:border-green-500">
-                        <i class="fas fa-chart-area fa-fw mr-3"></i><span class="pb-1 md:pb-0 text-sm">Data User</span>
+                    <a href="data_ruang_kos" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-900 border-b-2 border-white hover:border-pink-500">
+                        <i class="fas fa-tasks fa-fw mr-3"></i><span class="pb-1 md:pb-0 text-sm">Ruang Kost</span>
                     </a>
                 </li>
-                <li class="mr-6 my-2 md:my-0">
-                    <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-900 border-b-2 border-white hover:border-red-500">
-                        <i class="fa fa-wallet fa-fw mr-3"></i><span class="pb-1 md:pb-0 text-sm">Transaksi</span>
-                    </a>
-                </li>
-                <li class="mr-6 my-2 md:my-0">
-                    <a href="#" class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-900 border-b-2 border-white hover:border-green-500">
-                        <i class="fas fa-chart-area fa-fw mr-3"></i><span class="pb-1 md:pb-0 text-sm">Pendapatan</span>
-                    </a>
-                </li>
+                
             </ul>
 
             <div class="relative pull-right pl-4 pr-4 md:pr-0">
@@ -129,12 +122,11 @@
                         <div class="flex-shrink pr-4">
                             <div class="rounded p-3 bg-green-600"><i class="fa fa-wallet fa-2x fa-fw fa-inverse"></i></div>
                         </div>
-                        <?php /*
+                        
                         <div class="flex-1 text-right md:text-center">
-                            <h5 class="font-bold uppercase text-gray-500">Total Revenue</h5>
-                            <h3 class="font-bold text-3xl">$3249 <span class="text-green-500"><i class="fas fa-caret-up"></i></span></h3>
+                            <h5 class="font-bold uppercase text-gray-500">Data User : 8</h5>
                         </div>
-                        */ ?>
+                        
                     </div>
                 </div>
                 <!--/Metric Card-->
@@ -146,12 +138,11 @@
                         <div class="flex-shrink pr-4">
                             <div class="rounded p-3 bg-pink-600"><i class="fas fa-users fa-2x fa-fw fa-inverse"></i></div>
                         </div>
-                        <?php /*
+                        
                         <div class="flex-1 text-right md:text-center">
-                            <h5 class="font-bold uppercase text-gray-500">Total Users</h5>
-                            <h3 class="font-bold text-3xl">249 <span class="text-pink-500"><i class="fas fa-exchange-alt"></i></span></h3>
+                            <h5 class="font-bold uppercase text-gray-500">Ruang Kost : 8 </h5>
                         </div>
-                        */ ?>
+                        
                     </div>
                 </div>
                 <!--/Metric Card-->
@@ -163,12 +154,11 @@
                         <div class="flex-shrink pr-4">
                             <div class="rounded p-3 bg-yellow-600"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
                         </div>
-                        <?php /*
+                      
                         <div class="flex-1 text-right md:text-center">
-                            <h5 class="font-bold uppercase text-gray-500">New Users</h5>
-                            <h3 class="font-bold text-3xl">2 <span class="text-yellow-600"><i class="fas fa-caret-up"></i></span></h3>
+                            <h5 class="font-bold uppercase text-gray-500">Transaksi : Rp. 2.800.000</h5>
                         </div>
-                        */ ?>
+                        
 
                     </div>
                 </div>
@@ -181,16 +171,16 @@
                         <div class="flex-shrink pr-4">
                             <div class="rounded p-3 bg-blue-600"><i class="fas fa-server fa-2x fa-fw fa-inverse"></i></div>
                         </div>
-                        <?php /*
+                        
                         <div class="flex-1 text-right md:text-center">
-                            <h5 class="font-bold uppercase text-gray-500">Server Uptime</h5>
-                            <h3 class="font-bold text-3xl">152 days</h3>
+                            <h5 class="font-bold uppercase text-gray-500">Pendapatan : Rp. 3.000.000</h5>
                         </div>
-                        */ ?>
+                        
 
                     </div>
                 </div>
                 <!--/Metric Card-->
+                <?php /*
             </div>
             <div class="w-full md:w-1/2 xl:w-1/3 p-3">
                 <!--Metric Card-->
@@ -205,11 +195,14 @@
                             <h5 class="font-bold uppercase text-gray-500">To Do List</h5>
                             <h3 class="font-bold text-3xl">7 tasks</h3>
                         </div>
-                        */ ?>
+                        
 
                     </div>
                 </div>
+                */ ?>
                 <!--/Metric Card-->
+            
+                <?php /*
             </div>
             <div class="w-full md:w-1/2 xl:w-1/3 p-3">
                 <!--Metric Card-->
@@ -219,14 +212,15 @@
                             <div class="rounded p-3 bg-red-600"><i class="fas fa-inbox fa-2x fa-fw fa-inverse"></i></div>
                         </div>
 
-                        <?php /*
+                        
                         <div class="flex-1 text-right md:text-center">
                             <h5 class="font-bold uppercase text-gray-500">Issues</h5>
                             <h3 class="font-bold text-3xl">3 <span class="text-red-500"><i class="fas fa-caret-up"></i></span></h3>
                         </div>
-                        */ ?>
+                        
                     </div>
                 </div>
+                */ ?>
                 <!--/Metric Card-->
             </div>
         </div>
