@@ -19,9 +19,9 @@ class RuangkosController extends Controller
     public function simpan_data_ruang_kos(Request $request){
         DB::table('tb_ruang_kost')->insert([
             'nama' => $request->nama,
-            'luas' => "",
-            'fitur' => "",
-            'harga' => ""
+            'luas' => $request->luas,
+            'fitur' => $request->fitur,
+            'harga' => $request->harga
         ]);
         // alihkan halaman ke halaman pegawai
         return redirect('/data_ruang_kos');
@@ -36,7 +36,7 @@ class RuangkosController extends Controller
     public function edit_data_ruang_kos(Request $request){
         DB::table('tb_ruang_kost')
                 ->where('id', $request->id)
-                ->update(['nama' => $request->nama]);
+                ->update(['nama' => $request->nama, 'luas' => $request->luas, 'fitur' => $request->fitur, 'harga' => $request->harga]);
         // alihkan halaman ke halaman pegawai
         return redirect('/data_ruang_kos');
     }

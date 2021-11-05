@@ -121,6 +121,25 @@
             </label>
             <input type = "text" name = "nama" />
             <br/>
+            <br/>
+            <label>
+                Luas : 
+            </label>
+            <input type = "text" name = "luas" />
+            <br/>
+            <br/>
+            <label>
+                Fitur : 
+            </label>
+            <input type = "text" name = "fitur" />
+            <br/>
+            <br/>
+            <label>
+                Harga : 
+            </label>
+            <input type = "text" name = "harga" />
+            <br/>
+            <br/>
             <button class="bg-pink-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Add Data</button>
             </form>            
 

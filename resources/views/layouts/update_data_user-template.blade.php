@@ -122,6 +122,16 @@
             <input type = "hidden" name = "id" value = "{{ $user->id }}" />
             <input type = "text" name = "nama" value = "{{ $user->nama }}" />
             <br/>
+            <label>
+                Masukkan Asal Anda : 
+            </label>
+            <input type = "text" name = "asal" value = "{{ $user->asal }}" />
+            <br/>
+            <label>
+                Masukkan No Telepon Anda : 
+            </label>
+            <input type = "text" name = "no_telepon" value = "{{ $user->no_telepon }}" />
+            <br/>
             <button class="bg-pink-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Edit Data</button>
             </form>           
         @endforeach

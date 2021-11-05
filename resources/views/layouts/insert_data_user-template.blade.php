@@ -121,6 +121,19 @@
             </label>
             <input type = "text" name = "nama" />
             <br/>
+            <br/>
+            <label>
+                Masukkan Asal Anda : 
+            </label>
+            <input type = "text" name = "asal" />
+            <br/>
+            <br/>
+            <label>
+                Masukkan No Telepon Anda : 
+            </label>
+            <input type = "text" name = "no_telepon" />
+            <br/>
+            <br/>
             <button class="bg-pink-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Add Data</button>
             </form>            
 

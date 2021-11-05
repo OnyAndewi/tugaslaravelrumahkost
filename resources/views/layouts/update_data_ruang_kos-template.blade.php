@@ -122,6 +122,25 @@
             <input type = "hidden" name = "id" value = "{{ $ruang_kos->id }}" />
             <input type = "text" name = "nama" value = "{{ $ruang_kos->nama }}" />
             <br/>
+            <br/>
+            <label>
+                Luas : 
+            </label>
+            <input type = "text" name = "luas" value = "{{ $ruang_kos->luas }}" />
+            <br/>
+            <br/>
+            <label>
+                Fitur : 
+            </label>
+            <input type = "text" name = "fitur" value = "{{ $ruang_kos->fitur }}" />
+            <br/>
+            <br/>
+            <label>
+                Harga : 
+            </label>
+            <input type = "text" name = "harga" value = "{{ $ruang_kos->harga }}" />
+            <br/>
+            <br/>
             <button class="bg-pink-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Edit Data</button>
             </form>           
         @endforeach

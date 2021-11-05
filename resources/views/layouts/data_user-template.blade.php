@@ -109,6 +109,8 @@
     <tr>
       <th class="w-1/2 ...">No</th>
       <th class="w-1/4 ...">Nama</th>
+      <th class="w-1/4 ...">Asal</th>
+      <th class="w-1/4 ...">No Telepon</th>
       <th class="w-1/4 ...">Aksi</th>
     </tr>
   </thead>
@@ -121,6 +123,8 @@
     <tr>
         <td><center><?php echo $i ?></center></td>
         <td><center>{{ $user->nama }}</center></td>
+        <td><center>{{ $user->asal }}</center></td>
+        <td><center>{{ $user->no_telepon }}</center></td>
         <td>
             <form method = "POST" action = "/delete_data_user" >
             @csrf

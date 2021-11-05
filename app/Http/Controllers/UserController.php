@@ -19,8 +19,8 @@ class UserController extends Controller
     public function simpan_data_user(Request $request){
         DB::table('tb_user')->insert([
             'nama' => $request->nama,
-            'asal' => "",
-            'no_telepon' => ""
+            'asal' => $request->asal,
+            'no_telepon' => $request->no_telepon
         ]);
         // alihkan halaman ke halaman pegawai
         return redirect('/data_user');
@@ -35,7 +35,7 @@ class UserController extends Controller
     public function edit_data_user(Request $request){
         DB::table('tb_user')
                 ->where('id', $request->id)
-                ->update(['nama' => $request->nama]);
+                ->update(['nama' => $request->nama, 'asal' => $request->asal, 'no_telepon' => $request->no_telepon]);
         // alihkan halaman ke halaman pegawai
         return redirect('/data_user');
     }

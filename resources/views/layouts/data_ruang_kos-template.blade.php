@@ -109,6 +109,9 @@
     <tr>
       <th class="w-1/2 ...">No</th>
       <th class="w-1/4 ...">Nama</th>
+      <th class="w-1/4 ...">Luas</th>
+      <th class="w-1/4 ...">Fitur</th>
+      <th class="w-1/4 ...">Harga</th>
       <th class="w-1/4 ...">Aksi</th>
     </tr>
   </thead>
@@ -121,6 +124,9 @@
     <tr>
         <td><center><?php echo $i ?></center></td>
         <td><center>{{ $ruang_kos->nama }}</center></td>
+        <td><center>{{ $ruang_kos->luas }}</center></td>
+        <td><center>{{ $ruang_kos->fitur }}</center></td>
+        <td><center>{{ $ruang_kos->harga }}</center></td>
         <td>
             <form method = "POST" action = "/delete_data_ruang_kos" >
             @csrf
