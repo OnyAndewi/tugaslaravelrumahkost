@@ -163,7 +163,7 @@
                         </div>
                       
                         <div class="flex-1 text-right md:text-center">
-                            <h5 class="font-bold uppercase text-gray-500">Transaksi : Rp. 2.800.000</h5>
+                            <h5 class="font-bold uppercase text-gray-500">Transaksi : 0</h5>
                         </div>
                         
 
@@ -180,7 +180,7 @@
                         </div>
                         
                         <div class="flex-1 text-right md:text-center">
-                            <h5 class="font-bold uppercase text-gray-500">Pendapatan : Rp. 3.000.000</h5>
+                            <h5 class="font-bold uppercase text-gray-500">Pendapatan : 0</h5>
                         </div>
                         
 
